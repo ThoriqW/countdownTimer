@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e7eff9;
+    background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+.container {
+    background-image: url("img/mountain-background.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.4);;
+    width: 900px;
+    padding: 20px 0;
+    height: 600px;
+    text-align: center;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-size: 4rem;
+    font-weight: lighter;
+    margin: 0 30px;
+}
+
+.time-c {
+    margin: 0 20px 0 0;
+}
